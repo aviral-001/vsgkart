@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial- scale=1.0"> I
+  <title>VSGkart</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css" >
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font- awesome/4.7.0/css/font-awesome.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,700;1,600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+  
+</head>
+
+<body>
+  <div class ="header">
+ 
+  <div class="container">
+<div class="navbar">
+<div class="logo">
+<img src="img/logo3.jfif" width="125px">
+</div>
+<nav>
+<ul id="MenuItems">
+<li><a href="https://vsg--vg9400313.repl.co/">Home</a></li>
+<li><a href="https://vsgproducts--vg9400313.repl.co/">Products </a></li>
+<li><a href="https://vsgaboutus--vg9400313.repl.co/">About</a></li>
+<li><a href="https://vsgcontact--vg9400313.repl.co/">Contact</a></li>
+<li><a href="https://vsgaccount--vg9400313.repl.co/">Account</a></li>
+</ul>
+  <img src="images/cart.png" width="30px" height="30px">
+   <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+</nav>
+  </div> 
+   
+    
+</div>
+  <script src="script.js"></script>
+
+  <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+   </div>
+
+    <!--featured products-->
+
+<div class="small-container">
+  <div class="row row-2">
+  <h2 class="title">Login</h2>
+   
+
+<form action="/action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="img/img_avatar2.png" alt="Avatar" class="avatar">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+        
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
+</div>
+</div></div>
+
+
+  
+
+<!-- footer -->
+    
+<div class="footer">
+  <div class="container">
+    <div class="row">
+      <div class="footer-col-1">
+        <h3>Download Our App</h3>
+        <p>Download App for Android and ios mobile phone.</p>
+      </div>
+      <div class="footer-col-2">
+       <img src="img/logo3.jfif">
+<p>Our Purpose Is To Sustainably Make the Pleasure and Benefits of Sports Accessible to the Many. </p>
+</div>
+<div class="footer-col-3">
+<h3>Useful Links</h3>
+<ul>
+<li>Coupons</li>
+<li>Blog Post</li>
+<li>Return Policy</li>
+<li>Join Affiliate</li>
+</ul>
+</div>
+      <div class="footer-col-4">
+<h3>Follow us</h3>
+<ul>
+<li><a href="https://www.facebook.com/vaibhavG004">Facebook</a></li>
+<li><a href="https://twitter.com/">Twitter</a></li>
+<li><a href="https://everythingwithvg.blogspot.com/">Blogs</a></li>
+<li><a href="https://instagram.com/vaibhavg_04?igshid=OGQ5ZDc2ODk2ZA==">Instagram</a></li>
+<li><a href="https://www.youtube.com/@everythingwithvg7208/about">Youtube</a></li>
+</ul>
+</div>
+</div>
+</div>
+  <hr> <p class="Copyright">Copyright 2023 VSG</p>
+</div>
+</div>
+ <!-- -js for toggle menu-->
+<script>
+  // Get the element with the ID "MenuItems"
+  var MenuItems = document.getElementById("MenuItems");
+
+  // Initially, set the maxHeight to "0px" to hide the menu
+  MenuItems.style.maxHeight = "0px";
+
+  // Define a function to toggle the menu
+  function menutoggle() {
+    // Check if the current maxHeight is "0px"
+    if (MenuItems.style.maxHeight == "0px") {
+      // If it's "0px", set it to "200px" to show the menu
+      MenuItems.style.maxHeight = "200px";
+    } else {
+      // If it's not "0px", set it back to "0px" to hide the menu
+      MenuItems.style.maxHeight = "0px";
+    }
+  }
+</script>
+
+</body>
+
+</html>
